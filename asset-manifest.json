@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/camp/static/css/main.bc3e5724.chunk.css",
+    "main.js": "/camp/static/js/main.c2636451.chunk.js",
+    "main.js.map": "/camp/static/js/main.c2636451.chunk.js.map",
+    "runtime-main.js": "/camp/static/js/runtime-main.100b062e.js",
+    "runtime-main.js.map": "/camp/static/js/runtime-main.100b062e.js.map",
+    "static/css/2.07c9864b.chunk.css": "/camp/static/css/2.07c9864b.chunk.css",
+    "static/js/2.4cf10599.chunk.js": "/camp/static/js/2.4cf10599.chunk.js",
+    "static/js/2.4cf10599.chunk.js.map": "/camp/static/js/2.4cf10599.chunk.js.map",
+    "index.html": "/camp/index.html",
+    "static/css/2.07c9864b.chunk.css.map": "/camp/static/css/2.07c9864b.chunk.css.map",
+    "static/css/main.bc3e5724.chunk.css.map": "/camp/static/css/main.bc3e5724.chunk.css.map",
+    "static/js/2.4cf10599.chunk.js.LICENSE.txt": "/camp/static/js/2.4cf10599.chunk.js.LICENSE.txt",
+    "static/media/first.fd1ee9e4.mov": "/camp/static/media/first.fd1ee9e4.mov"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.100b062e.js",
+    "static/css/2.07c9864b.chunk.css",
+    "static/js/2.4cf10599.chunk.js",
+    "static/css/main.bc3e5724.chunk.css",
+    "static/js/main.c2636451.chunk.js"
+  ]
+}
