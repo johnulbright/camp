@@ -35,7 +35,7 @@ const Security = (props) => {
         if (answer == 23) {
           setAnswer('');
           setShowWarning(false);
-          setQuestionText("Seth or Johnny");
+          setQuestionText("Seth or Johnny?");
           setQNumber(3);
         } else {
             setShowWarning(true);
