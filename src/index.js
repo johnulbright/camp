@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'; // The import needed for appending the React c
     this allows for use to define routes in our app easier, it was also renamed from BrowserRouter -> Router
 */
 import {BrowserRouter as Router} from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'; // It is common to import css with the same name as the component, it is just normal css
 import App from './App'; // We import a component
 

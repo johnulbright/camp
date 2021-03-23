@@ -22,7 +22,7 @@ const Security = (props) => {
     e.preventDefault();
     switch (qNumber) {
       case 1:
-        if (answer == "Vernon") {
+        if (answer === "Vernon") {
           setAnswer('');
           setShowWarning(false);
           setQuestionText("What was Craig's first cabin?");
@@ -42,7 +42,7 @@ const Security = (props) => {
         }
         break;
       case 3:
-        if (answer == "Neither"||answer=="neither") {
+        if (answer === "Neither"||answer==="neither") {
           setAnswer('');
           setShowWarning(false);
           props.setSecure(true);
@@ -68,7 +68,7 @@ const Security = (props) => {
         />
       </FormGroup>
       <Button id="suBtn" type="submit">
-        Login
+        Submit
       </Button>
     </Form>
     {showWarning&&<h2>INCORRECT!</h2>}
