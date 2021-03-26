@@ -7,6 +7,7 @@ const Code=(props)=>{
 
     const handleSubmit=(e)=>{
         e.preventDefault();
+        props.setDigitLocation(null);
         setShowWarning(true);
         for (let item of props.codes){
             if(item.code==code){
@@ -16,9 +17,7 @@ const Code=(props)=>{
             }
 
         }
-        console.log(props);
-
-
+        setCode('');
     }
     return(
         <>
